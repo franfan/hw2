@@ -1,0 +1,13 @@
+function setup() {
+    createCanvas(400, 400);
+    background(220);
+    colorMode(RGB, 100, 200, 80);
+}
+
+function draw() {
+    let x = random(width / 2);
+    let y = random(height);
+    fill(x, y, 100);
+    noStroke()
+    ellipse(x, y, 8);
+}
